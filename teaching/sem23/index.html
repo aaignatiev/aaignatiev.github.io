@@ -5,12 +5,17 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
+  
   <style>
     body {
         font: 15px Montserrat, sans-serif;
         line-height: 1.8;
         color: #DBD7D2;
+        max-width: 800px;
+        margin: auto
     }
 
     img {
@@ -29,9 +34,9 @@
         <br>
       
         Данный семинар посвящен параметризованным алгоритмам. 
-        Одно из современных направлений построения эффективных алгоритмов для NP-трудных задач — построение параметризованных FPT-алгоритмов (fixed paramater tractable). 
-        Неформально говоря, NP-трудные задачи, это те задачи, для которых неизвестны алгоритмы, работающие "быстро" на любых входных данных. 
-        При этом огромное количество задач, возникающих в приложениях, являются NP-трудными. FPT алгоритмы решают сложные задачи «быстро» при условии, что нам известна дополнительная информация о задаче — некоторый параметр ее входа. По сравнению с другими направлениями, такими как приближенные алгоритмы, эвристики и точные алгоритмы, построение FPT алгоритмов - достаточно новое направление, но при этом уже завоевавшее популярность.
+        Одно из современных направлений построения эффективных алгоритмов для NP-трудных задач &#8212; построение параметризованных FPT-алгоритмов (fixed paramater tractable). 
+        Неформально говоря, NP-трудные задачи, это те задачи, для которых неизвестны алгоритмы, работающие «быстро» на любых входных данных. 
+        При этом огромное количество задач, возникающих в приложениях, являются NP-трудными. FPT алгоритмы решают сложные задачи «быстро» при условии, что нам известна дополнительная информация о задаче &#8212; некоторый параметр ее входа. По сравнению с другими направлениями, такими как приближенные алгоритмы, эвристики и точные алгоритмы, построение FPT алгоритмов &#8212; достаточно новое направление, но при этом уже завоевавшее популярность.
         <br><br>
       
         Каждый четверг в 13:40 в <a href="https://us02web.zoom.us/j/384956974">Zoom 101</a>. 
@@ -62,9 +67,9 @@
         <h4>Обязательные темы</h4>
         <ol>
             <li>Параметризованные алгоритмы, FPT, XP, kernelization. Branching. На примере Vertex Cover (<a href = "https://parameterized-algorithms.mimuw.edu.pl/parameterized-algorithms.pdf">Parameterized Algorithms</a>, страница 12-22, 53-55).</li>
-            <li>Color coding. k-path. d-Clustering (<a href = "https://parameterized-algorithms.mimuw.edu.pl/parameterized-algorithms.pdf">Parameterized Algorithms</a>, страница 103-105, 113-117).</li>
+            <li>Color coding. \(k\)-path. \(d\)-Clustering (<a href = "https://parameterized-algorithms.mimuw.edu.pl/parameterized-algorithms.pdf">Parameterized Algorithms</a>, страница 103-105, 113-117).</li>
             <li>Итеративное сжатие. Feedback Vertex Set in Tournaments. Feedback Vertex Set. (<a href = "https://parameterized-algorithms.mimuw.edu.pl/parameterized-algorithms.pdf">Parameterized Algorithms</a>, страница 77-88)</li>
-            <li>2-k ядро для Vertex Cover (<a href = "https://parameterized-algorithms.mimuw.edu.pl/parameterized-algorithms.pdf">Parameterized Algorithms</a>, страница 33-36). Целочисленное линейное программирование. Imbalance problem параметризованная вершинным покрытием (страница 135-139).</li>
+            <li>\(2k\)-ядро для Vertex Cover (<a href = "https://parameterized-algorithms.mimuw.edu.pl/parameterized-algorithms.pdf">Parameterized Algorithms</a>, страница 33-36). Целочисленное линейное программирование. Imbalance problem параметризованная вершинным покрытием (страница 135-139).</li>
             <li>Динамическое программирование. Set Cover. Дерево Штейнера (<a href = "https://parameterized-algorithms.mimuw.edu.pl/parameterized-algorithms.pdf">Parameterized Algorithms</a>, страница 129-134).</li>
         </ol>
         
@@ -78,7 +83,7 @@
         <h5>Cut problems</h5>
         <ol>
             <li><a href = "https://link.springer.com/chapter/10.1007/978-3-642-45043-3_36">Jan Arne Telle, Yngve Villanger. Connecting Terminals and 2-Disjoint Connected Subgraphs.</a></li>
-            <li><a href = "https://link.springer.com/chapter/10.1007/978-3-642-29344-3_17">Marek Cygan, Marcin Pilipczuk, Michał Pilipczuk, Jakub Onufry Wojtaszczyk. Solving the 2-Disjoint Connected Subgraphs Problem Faster Than 2^n.</a></li>
+            <li><a href = "https://link.springer.com/chapter/10.1007/978-3-642-29344-3_17">Marek Cygan, Marcin Pilipczuk, Michał Pilipczuk, Jakub Onufry Wojtaszczyk. Solving the 2-Disjoint Connected Subgraphs Problem Faster Than \(2^n\).</a></li>
             <li><a href = "https://link.springer.com/article/10.1007/s00453-012-9707-6">Marek Cygan, Daniel Lokshtanov, Marcin Pilipczuk, Michał Pilipczuk, Saket Saurabh. On Cutwidth Parameterized by Vertex Cover.</a></li>
         </ol>
         
@@ -86,7 +91,7 @@
         <ol>
             <li><a href = "https://arxiv.org/abs/1512.01621">Fedor V. Fomin, Serge Gaspers, Daniel Lokshtanov, Saket Saurabh. Exact Algorithms via Monotone Local Search.</a></li>
             
-            <li><a href = "https://arxiv.org/abs/0907.4573">Noga Alon, Gregory Gutin, Eun Jung Kim, Stefan Szeider, Anders Yeo. Solving MAX-r-SAT Above a Tight Lower Bound.</a></li>
+            <li><a href = "https://arxiv.org/abs/0907.4573">Noga Alon, Gregory Gutin, Eun Jung Kim, Stefan Szeider, Anders Yeo. Solving MAX-\(r\)-SAT Above a Tight Lower Bound.</a></li>
         </ol>
         
         <h5>Flow-augmentation</h5>
