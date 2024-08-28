@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="376 276 303 303" width="303" height="303">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="375 275 305 305" width="305" height="305">
   <defs/>
   <g id="Полотно________1" stroke-dasharray="none" fill="none" fill-opacity="1" stroke-opacity="1" stroke="none">
     <title>Полотно 1</title>
     <g id="Полотно________1_Слой_1">
       <title>Слой 1</title>
       <g id="Graphic_3">
-        <rect x="377.5" y="277.5" width="300" height="300" fill="#ffffc0"/>
+        <rect x="377.5" y="277.5" width="300" height="300" fill="#ffff80"/>
         <rect x="377.5" y="277.5" width="300" height="300" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
       <g id="Graphic_6">
-        <rect x="377.5" y="277.5" width="100" height="200" fill="#eaffff"/>
-        <rect x="377.5" y="277.5" width="100" height="200" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="377.5" y="277.5" width="100" height="200" fill="#c0ffff"/>
+        <rect x="377.5" y="277.5" width="100" height="200" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_7">
-        <rect x="377.5" y="477.5" width="200" height="100" fill="#eaffff"/>
-        <rect x="377.5" y="477.5" width="200" height="100" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="377.5" y="477.5" width="200" height="100" fill="#c0ffff"/>
+        <rect x="377.5" y="477.5" width="200" height="100" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_8">
-        <rect x="577.5" y="377.5" width="100" height="200" fill="#eaffff"/>
-        <rect x="577.5" y="377.5" width="100" height="200" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="577.5" y="377.5" width="100" height="200" fill="#c0ffff"/>
+        <rect x="577.5" y="377.5" width="100" height="200" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
       <g id="Graphic_9">
-        <rect x="477.5" y="277.5" width="200" height="100" fill="#eaffff"/>
-        <rect x="477.5" y="277.5" width="200" height="100" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="477.5" y="277.5" width="200" height="100" fill="#c0ffff"/>
+        <rect x="477.5" y="277.5" width="200" height="100" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
     </g>
   </g>
