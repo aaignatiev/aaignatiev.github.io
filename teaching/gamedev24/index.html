@@ -16,10 +16,25 @@
     body {
         font: 15px Montserrat, sans-serif;
         line-height: 1.8;
-        max-width: 600px;
+        max-width: 700px;
         margin: auto
     }
-
+    A {
+      color: #555555;
+      font-weight: 450;
+      text-decoration: none;
+      border-bottom:1.5px dotted;
+    
+      &:hover {
+      color: #000000;
+      text-decoration: none;
+      },
+      &:focus {
+      border-bottom-color: blue;
+      border-bottom:1.5px dotted;
+      color: #000000;
+      }
+    }
     img {
       /* height: 60px; */
       margin: 0px;
